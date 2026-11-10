@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bike Shop | Activities</title>
+    <meta name="description" content="Estimate monthly motorcycle upgrade costs and plan your next rider purchase." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <div class="brand">
+          <span class="brand-mark">T</span>
+          <div>
+            <strong>The Bike</strong>
+            <small>SHOP</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="activities.html">Activities</a>
+          <a href="brands.html">Brands</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="tel:+27115552089" class="nav-phone">+27 11 555 2089</a>
+          <a class="button button-primary nav-cta" href="shop.html">Shop now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="category-info section-space alt-bg">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="eyebrow">Category information</p>
+            <h2>Everything you need to upgrade, protect, and maintain your ride.</h2>
+          </div>
+
+          <div class="info-grid">
+            <article class="info-card">
+              <h3>Performance</h3>
+              <p>Upgrade your engine, boost throttle response, and improve acceleration with premium parts.</p>
+            </article>
+            <article class="info-card">
+              <h3>Safety</h3>
+              <p>Choose helmets, gloves, and protective gear that keep you safe while still looking sharp.</p>
+            </article>
+            <article class="info-card">
+              <h3>Braking</h3>
+              <p>Improve stopping power with premium brake pads, rotors, and complete brake kits.</p>
+            </article>
+            <article class="info-card">
+              <h3>Maintenance</h3>
+              <p>Keep your machine clean, efficient, and road-ready with oils, filters, and tools.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="calculator section-space" id="calculator">
+        <div class="container calc-layout">
+          <div class="calc-copy">
+            <p class="eyebrow">Activity planner</p>
+            <h2>Calculate the monthly cost for your next upgrade.</h2>
+            <p>Use the activity budget planner to compare product costs and plan your next riding investment.</p>
+            <ul>
+              <li>Instant estimate for bike parts and upgrades</li>
+              <li>Clear monthly breakdown for budgeting</li>
+              <li>Professional financing-style planning for riders</li>
+            </ul>
+          </div>
+
+          <div class="calc-panel">
+            <div class="panel-header">
+              <span class="panel-badge">Finance calculator</span>
+              <h3>Activity cost estimate</h3>
+            </div>
+
+            <div class="field-row">
+              <label for="categorySelect">Category</label>
+              <select id="categorySelect">
+                <option value="brakes">Braking</option>
+                <option value="lighting">Lighting</option>
+                <option value="gear">Riding gear</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="performance">Performance</option>
+              </select>
+            </div>
+
+            <div class="field-row">
+              <label for="priceInput">Item price</label>
+              <input id="priceInput" type="number" min="0" step="50" value="3490" />
+            </div>
+
+            <div class="field-row">
+              <label for="depositInput">Deposit</label>
+              <input id="depositInput" type="number" min="0" step="50" value="500" />
+            </div>
+
+            <div class="field-row">
+              <label for="termInput">Payment term</label>
+              <select id="termInput">
+                <option value="6">6 months</option>
+                <option value="12">12 months</option>
+                <option value="18">18 months</option>
+                <option value="24" selected>24 months</option>
+              </select>
+            </div>
+
+            <button id="calculateBtn" class="button button-primary" type="button">Calculate activity cost</button>
+
+            <div class="estimate-box">
+              <span>Estimated monthly</span>
+              <strong id="estimateValue">R 0</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-layout">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">T</span>
+            <div>
+              <strong>The Bike</strong>
+              <small>SHOP</small>
+            </div>
+          </div>
+          <p>Premium motorcycle parts, gear, and upgrade solutions for every rider.</p>
+        </div>
+
+        <div>
+          <h3>Visit the shop</h3>
+          <p>124 Ridgeway Road<br />Boksburg, Gauteng</p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>+27 11 555 2089<br />hello@thebikeshop.co.za</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> The Bike Shop</span>
+        <span>All rights reserved</span>
+      </div>
+    </footer>
+  </body>
+</html>
