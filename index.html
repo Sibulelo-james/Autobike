@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Velocity Motors | Premium Motorbike Dealership</title>
+    <title>The Bike Shop | Motorcycle Parts & Accessories</title>
     <meta
       name="description"
-      content="Velocity Motors is a premium motorbike dealership specialising in new and pre-owned motorcycles, servicing, finance, and rider support."
+      content="The Bike Shop is a premium motorcycle parts and accessories store with performance upgrades, rider gear, and workshop essentials."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,56 +18,58 @@
     <header class="site-header">
       <div class="container nav-bar">
         <div class="brand">
-          <span class="brand-mark">V</span>
+          <span class="brand-mark">T</span>
           <div>
-            <strong>Velocity</strong>
-            <small>MOTORS</small>
+            <strong>The Bike</strong>
+            <small>SHOP</small>
           </div>
         </div>
 
         <nav class="main-nav" aria-label="Main navigation">
           <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="Services.html">Services</a>
-          <a href="Enquiry.html">Enquiry</a>
-          <a href="contact.html">Contact</a>
+          <a href="#shop">Shop</a>
+          <a href="#parts">Parts</a>
+          <a href="#brands">Brands</a>
+          <a href="#contact">Contact</a>
         </nav>
 
-        <a class="button button-primary nav-cta" href="Enquiry.html">Book a test ride</a>
+        <div class="nav-actions">
+          <a href="tel:+27115552089" class="nav-phone">+27 11 555 2089</a>
+          <a class="button button-primary nav-cta" href="#shop">Shop now</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero hero-shop">
         <div class="container hero-layout">
           <div class="hero-copy">
-            <p class="eyebrow">Power. Style. Freedom.</p>
-            <h1>Find your next ride, built for the road ahead.</h1>
+            <p class="eyebrow">Performance parts & riding essentials</p>
+            <h1>Upgrade your ride with parts built for every journey.</h1>
             <p class="hero-text">
-              From city commuters to adventure machines, we help riders find the perfect motorcycle
-              with expert advice, flexible finance, and reliable support.
+              Discover premium motorcycle parts, protective gear, accessories, and workshop essentials from the brands riders trust most.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="Services.html">Browse bikes</a>
-              <a class="button button-secondary" href="about.html">Why choose us</a>
+              <a class="button button-primary" href="#shop">Browse parts</a>
+              <a class="button button-secondary" href="#brands">Shop brands</a>
             </div>
-            <ul class="hero-stats" aria-label="Business stats">
-              <li><strong>1,200+</strong><span>Happy riders</span></li>
-              <li><strong>18</strong><span>Top brands</span></li>
-              <li><strong>4.9/5</strong><span>Customer rating</span></li>
+            <ul class="hero-stats" aria-label="Shop statistics">
+              <li><strong>12k+</strong><span>Parts sold</span></li>
+              <li><strong>2-day</strong><span>Fast shipping</span></li>
+              <li><strong>4.9/5</strong><span>Rider rating</span></li>
             </ul>
           </div>
 
-          <div class="hero-visual" aria-label="Featured motorcycle image">
+          <div class="hero-visual" aria-label="Featured motorcycle parts image">
             <div class="floating-card card-top">
-              <span>New arrival</span>
-              <strong>2026 Street X</strong>
-              <em>From R 149,000</em>
+              <span>Hot deal</span>
+              <strong>Brake Kit</strong>
+              <em>From R 1,950</em>
             </div>
-            <div class="bike-spotlight"></div>
+            <div class="bike-spotlight shop-spotlight"></div>
             <div class="floating-card card-bottom">
-              <span>Trade-in value</span>
-              <strong>Up to 30%</strong>
+              <span>Free delivery</span>
+              <strong>Orders over R 1,500</strong>
             </div>
           </div>
         </div>
@@ -76,153 +78,165 @@
       <section class="featured-strip">
         <div class="container strip-grid">
           <div>
-            <strong>Free delivery</strong>
-            <span>Within city limits</span>
+            <strong>Trusted brands</strong>
+            <span>Factory-approved parts</span>
           </div>
           <div>
-            <strong>Warranty backed</strong>
-            <span>On all new models</span>
+            <strong>Fast dispatch</strong>
+            <span>Same-day packing</span>
           </div>
           <div>
-            <strong>Same-day finance</strong>
-            <span>Approval in under 30 mins</span>
+            <strong>Secure checkout</strong>
+            <span>Protected payment</span>
           </div>
         </div>
       </section>
 
-      <section class="inventory section-space" id="inventory">
+      <section class="category-showcase section-space" id="shop">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Featured inventory</p>
-            <h2>Built for every kind of rider.</h2>
+            <p class="eyebrow">Popular categories</p>
+            <h2>Shop by purpose, style, and performance.</h2>
           </div>
 
-          <div class="bike-grid">
-            <article class="bike-card">
-              <div class="bike-image image-one"></div>
-              <div class="bike-info">
-                <div class="bike-topline">
-                  <span>Sport</span>
-                  <strong>R 179,000</strong>
+          <div class="category-grid">
+            <article class="category-card card-one">
+              <span>Engine</span>
+              <h3>Performance upgrades</h3>
+            </article>
+            <article class="category-card card-two">
+              <span>Safety</span>
+              <h3>Helmets & gear</h3>
+            </article>
+            <article class="category-card card-three">
+              <span>Brakes</span>
+              <h3>Stopping power</h3>
+            </article>
+            <article class="category-card card-four">
+              <span>Accessories</span>
+              <h3>Ride essentials</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="inventory section-space alt-bg" id="parts">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Best sellers</p>
+            <h2>Built for riders who demand quality.</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-image image-one"></div>
+              <div class="product-info">
+                <span class="product-tag">Brakes</span>
+                <h3>Carbon Ceramic Brake Kit</h3>
+                <div class="product-meta">
+                  <strong>R 3,490</strong>
+                  <span>4.9 ★</span>
                 </div>
-                <h3>Velocity RS 900</h3>
-                <p>High-performance machine with aggressive styling and razor-sharp handling.</p>
               </div>
             </article>
 
-            <article class="bike-card">
-              <div class="bike-image image-two"></div>
-              <div class="bike-info">
-                <div class="bike-topline">
-                  <span>Touring</span>
-                  <strong>R 205,000</strong>
+            <article class="product-card">
+              <div class="product-image image-two"></div>
+              <div class="product-info">
+                <span class="product-tag">Drive</span>
+                <h3>Pro Chain & Sprocket Set</h3>
+                <div class="product-meta">
+                  <strong>R 2,150</strong>
+                  <span>4.8 ★</span>
                 </div>
-                <h3>Summit GT 700</h3>
-                <p>Comfort-first touring bike designed for long rides, weekends, and road trips.</p>
               </div>
             </article>
 
-            <article class="bike-card">
-              <div class="bike-image image-three"></div>
-              <div class="bike-info">
-                <div class="bike-topline">
-                  <span>Adventure</span>
-                  <strong>R 189,500</strong>
+            <article class="product-card">
+              <div class="product-image image-three"></div>
+              <div class="product-info">
+                <span class="product-tag">Protection</span>
+                <h3>Racing Full Face Helmet</h3>
+                <div class="product-meta">
+                  <strong>R 4,280</strong>
+                  <span>5.0 ★</span>
                 </div>
-                <h3>Trail Pro 650</h3>
-                <p>Built to handle city streets, gravel roads, and open highways with confidence.</p>
               </div>
             </article>
 
-            <article class="bike-card">
-              <div class="bike-image image-four"></div>
-              <div class="bike-info">
-                <div class="bike-topline">
-                  <span>Urban</span>
-                  <strong>R 164,000</strong>
+            <article class="product-card">
+              <div class="product-image image-four"></div>
+              <div class="product-info">
+                <span class="product-tag">Maintenance</span>
+                <h3>Premium Engine Oil Kit</h3>
+                <div class="product-meta">
+                  <strong>R 620</strong>
+                  <span>4.7 ★</span>
                 </div>
-                <h3>City Storm 500</h3>
-                <p>Lightweight city-ready styling with smooth handling and everyday practicality.</p>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-five"></div>
+              <div class="product-info">
+                <span class="product-tag">Lighting</span>
+                <h3>LED Headlight Conversion</h3>
+                <div class="product-meta">
+                  <strong>R 1,890</strong>
+                  <span>4.8 ★</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image image-six"></div>
+              <div class="product-info">
+                <span class="product-tag">Gear</span>
+                <h3>Adventure Riding Suit</h3>
+                <div class="product-meta">
+                  <strong>R 5,640</strong>
+                  <span>4.9 ★</span>
+                </div>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="services section-space alt-bg" id="services">
+      <section class="promo-band">
+        <div class="container promo-inner">
+          <div>
+            <p class="eyebrow">Weekend special</p>
+            <h2>Save up to 25% on select performance upgrades.</h2>
+          </div>
+          <a class="button button-primary" href="#shop">Claim the deal</a>
+        </div>
+      </section>
+
+      <section class="services section-space" id="brands">
         <div class="container">
           <div class="section-heading narrow">
-            <p class="eyebrow">Why choose us</p>
-            <h2>More than a dealership. Your long-term riding partner.</h2>
+            <p class="eyebrow">Why riders choose us</p>
+            <h2>Expert advice, trusted products, and fast support.</h2>
           </div>
 
           <div class="service-grid">
             <article class="service-card">
               <div class="icon">01</div>
-              <h3>Expert guidance</h3>
-              <p>Our team helps match you with the perfect motorcycle for your lifestyle and budget.</p>
+              <h3>Top-tier brands</h3>
+              <p>We stock premium performance parts and accessories from the most trusted names in motorcycling.</p>
             </article>
             <article class="service-card">
               <div class="icon">02</div>
-              <h3>Trade-in support</h3>
-              <p>Upgrade with confidence using transparent, competitive trade-in valuations.</p>
+              <h3>Fitment guidance</h3>
+              <p>Our team helps you match the right part to your bike, your riding style, and your budget.</p>
             </article>
             <article class="service-card">
               <div class="icon">03</div>
-              <h3>Service & maintenance</h3>
-              <p>Certified technicians keep your bike running at peak performance year-round.</p>
+              <h3>Workshop support</h3>
+              <p>From maintenance kits to upgrades, we help keep your machine road-ready and reliable.</p>
             </article>
           </div>
-        </div>
-      </section>
-
-      <section class="finance section-space" id="finance">
-        <div class="container finance-layout">
-          <div class="finance-copy">
-            <p class="eyebrow">Flexible finance</p>
-            <h2>Own your dream bike without the stress.</h2>
-            <p>
-              Whether you're buying your first bike or upgrading to a premium model, we offer
-              straightforward financing options and tailored payment plans.
-            </p>
-            <ul>
-              <li>Quick approvals with competitive rates</li>
-              <li>Flexible instalments to suit your budget</li>
-              <li>Insurance and accessories available in one place</li>
-            </ul>
-          </div>
-
-          <div class="finance-panel">
-            <div class="panel-header">
-              <span>Monthly estimate</span>
-              <strong>R 4,950</strong>
-            </div>
-            <div class="panel-body">
-              <div>
-                <label>Bike price</label>
-                <strong>R 189,000</strong>
-              </div>
-              <div>
-                <label>Deposit</label>
-                <strong>R 25,000</strong>
-              </div>
-              <div>
-                <label>Term</label>
-                <strong>60 months</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonial section-space alt-bg">
-        <div class="container">
-          <p class="eyebrow">Customer stories</p>
-          <blockquote>
-            “The team made the entire buying process easy and honest. I drove away in my dream bike
-            and the after-sales support has been excellent.”
-          </blockquote>
-          <p class="reviewer">— Lisa M., Velocity customer</p>
         </div>
       </section>
     </main>
@@ -231,27 +245,27 @@
       <div class="container footer-layout">
         <div>
           <div class="brand footer-brand">
-            <span class="brand-mark">V</span>
+            <span class="brand-mark">T</span>
             <div>
-              <strong>Velocity</strong>
-              <small>MOTORS</small>
+              <strong>The Bike</strong>
+              <small>SHOP</small>
             </div>
           </div>
-          <p>Premium motorcycles, honest advice, and unforgettable rides.</p>
+          <p>Premium motorcycle parts, gear, and upgrade solutions for every rider.</p>
         </div>
 
         <div>
-          <h3>Visit us</h3>
-          <p>45 Highway Road, Centurion<br />Johannesburg, South Africa</p>
+          <h3>Visit the shop</h3>
+          <p>124 Ridgeway Road<br />Boksburg, Gauteng</p>
         </div>
 
         <div>
           <h3>Contact</h3>
-          <p>+27 11 555 2089<br />sales@velocitymotors.co.za</p>
+          <p>+27 11 555 2089<br />hello@thebikeshop.co.za</p>
         </div>
       </div>
       <div class="container footer-bottom">
-        <span>© <span id="year"></span> Velocity Motors</span>
+        <span>© <span id="year"></span> The Bike Shop</span>
         <span>All rights reserved</span>
       </div>
     </footer>

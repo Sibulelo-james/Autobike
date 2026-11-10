@@ -1,22 +1,33 @@
-# Velocity Motors Dealership Website
+# The Bike Shop
 
-A responsive static dealership website for a motorbike business, built with HTML, CSS and a small JavaScript form validation script.
+A premium motorcycle parts and accessories storefront website built with HTML, CSS, and JavaScript.
+
+## Project overview
+This project is a responsive static e-commerce style landing page for a motorcycle parts business. It includes a strong hero section, category cards, featured products, a promotional banner, and footer/contact information.
 
 ## Pages
-- index.html
-- about.html
-- Services.html
-- Enquiry.html
-- contact.html
+- `index.html` — main storefront homepage
+
+## Files
+- `index.html` — main HTML structure
+- `styles.css` — full styling and responsive design
+- `script.js` — small script for dynamic year rendering
 
 ## Run locally
-Open the `index.html` file directly in a browser, or serve the folder with a simple local web server.
-
-Example:
+Open `index.html` directly in a browser, or serve the project locally:
 
 ```bash
 npx http-server .
 ```
 
+Then visit:
+
+```bash
+http://localhost:8123
+```
+
+## GitHub Pages
+This project is designed to work as a static website and can be published using GitHub Pages.
+
 ## Notes
-This project is designed as a clean showroom-style dealership website for a motorbike business.
+The design was created to resemble a modern motorcycle retail storefront focused on parts, gear, and rider performance upgrades.
