@@ -420,6 +420,114 @@ img {
 .card-three { background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80'); }
 .card-four { background-image: url('https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=900&q=80'); }
 
+.info-grid {
+ display: grid;
+ grid-template-columns: repeat(4, minmax(0, 1fr));
+ gap: 22px;
+}
+
+.info-card {
+ background: rgba(255, 255, 255, 0.82);
+ border: 1px solid var(--line);
+ border-radius: 24px;
+ padding: 26px 22px;
+ box-shadow: 0 12px 24px rgba(17,17,17,0.03);
+}
+
+.info-card h3 {
+ margin: 0 0 12px;
+ font-size: 1.5rem;
+ letter-spacing: -0.04em;
+}
+
+.info-card p {
+ margin: 0;
+ color: var(--muted);
+}
+
+.calc-layout {
+ display: grid;
+ grid-template-columns: 1.05fr 0.95fr;
+ gap: 34px;
+ align-items: center;
+}
+
+.calc-copy h2 {
+ margin: 0;
+ font-size: clamp(2.2rem, 3vw, 3.1rem);
+ line-height: 1.05;
+ letter-spacing: -0.06em;
+}
+
+.calc-copy p,
+.calc-copy li {
+ color: var(--muted);
+ font-size: 1.03rem;
+}
+
+.calc-copy ul {
+ margin: 22px 0 0;
+ padding-left: 18px;
+ line-height: 2;
+}
+
+.calc-panel {
+ background: #17181b;
+ color: white;
+ border-radius: 26px;
+ padding: 28px 24px;
+ box-shadow: var(--shadow);
+}
+
+.field-row {
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+ margin-bottom: 18px;
+}
+
+.field-row label {
+ color: rgba(255,255,255,0.78);
+ font-size: 0.78rem;
+ letter-spacing: 0.08em;
+ text-transform: uppercase;
+}
+
+.field-row input,
+.field-row select {
+ width: 100%;
+ border: 1px solid rgba(255,255,255,0.15);
+ background: rgba(255,255,255,0.05);
+ color: white;
+ border-radius: 12px;
+ padding: 0.9rem 1rem;
+ font: inherit;
+}
+
+.calc-panel .button {
+ width: 100%;
+ margin-top: 6px;
+}
+
+.estimate-box {
+ margin-top: 22px;
+ padding-top: 18px;
+ border-top: 1px solid rgba(255,255,255,0.12);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 20px;
+}
+
+.estimate-box span {
+ color: rgba(255,255,255,0.7);
+}
+
+.estimate-box strong {
+ font-size: 1.8rem;
+ letter-spacing: -0.05em;
+}
+
 .product-grid {
  display: grid;
  grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -595,7 +703,9 @@ img {
  .product-grid,
  .service-grid,
  .footer-layout,
- .category-grid {
+ .category-grid,
+ .info-grid,
+ .calc-layout {
    grid-template-columns: 1fr;
  }
 
