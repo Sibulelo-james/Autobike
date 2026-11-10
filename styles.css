@@ -472,60 +472,77 @@ img {
 }
 
 .calc-panel {
- background: linear-gradient(135deg, #17181b, #1f2328);
+ background: linear-gradient(180deg, #1d2125 0%, #20262b 100%);
  color: white;
- border-radius: 26px;
- padding: 28px 24px;
- box-shadow: 0 22px 48px rgba(17, 18, 22, 0.18);
- border: 1px solid rgba(255,255,255,0.06);
+ border-radius: 34px;
+ padding: 26px 28px 24px;
+ box-shadow: 0 18px 44px rgba(17, 18, 22, 0.22);
+ border: 1px solid rgba(255,255,255,0.04);
+ max-width: 760px;
+ margin: 0 auto;
 }
 
 .panel-header {
- margin-bottom: 22px;
+ margin-bottom: 18px;
 }
 
 .panel-badge {
  display: inline-flex;
  align-items: center;
- padding: 0.38rem 0.7rem;
+ padding: 0.7rem 1.25rem;
  border-radius: 999px;
- background: rgba(255, 122, 26, 0.12);
- color: #ffb684;
- font-size: 0.7rem;
- font-weight: 700;
+ background: rgba(245, 146, 76, 0.16);
+ color: #f2a067;
+ font-size: 0.74rem;
+ font-weight: 800;
  letter-spacing: 0.12em;
  text-transform: uppercase;
 }
 
 .panel-header h3 {
- margin: 12px 0 0;
- font-size: 1.7rem;
- letter-spacing: -0.05em;
+ margin: 20px 0 0;
+ font-size: clamp(2.2rem, 3vw, 4rem);
+ line-height: 1.05;
+ letter-spacing: -0.06em;
 }
 
 .field-row {
  display: flex;
  flex-direction: column;
- gap: 8px;
+ gap: 10px;
  margin-bottom: 18px;
 }
 
 .field-row label {
  color: rgba(255,255,255,0.78);
- font-size: 0.78rem;
- letter-spacing: 0.08em;
+ font-size: 0.74rem;
+ letter-spacing: 0.12em;
  text-transform: uppercase;
+ font-weight: 700;
 }
 
 .field-row input,
 .field-row select {
  width: 100%;
- border: 1px solid rgba(255,255,255,0.15);
- background: #000000;
+ border: 1px solid rgba(255,255,255,0.08);
+ background: rgba(7, 7, 8, 0.96);
  color: white;
  border-radius: 12px;
- padding: 0.9rem 1rem;
+ padding: 1.05rem 1.2rem;
  font: inherit;
+ font-size: 1.1rem;
+ box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03);
+}
+
+.field-row select {
+ appearance: none;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.7) 50%), linear-gradient(135deg, rgba(255,255,255,0.7) 50%, transparent 50%);
+ background-position: calc(100% - 22px) calc(50% - 3px), calc(100% - 16px) calc(50% - 3px);
+ background-size: 7px 7px, 7px 7px;
+ background-repeat: no-repeat;
+ padding-right: 46px;
 }
 
 .field-row select option {
@@ -535,7 +552,10 @@ img {
 
 .calc-panel .button {
  width: 100%;
- margin-top: 6px;
+ margin-top: 4px;
+ height: 62px;
+ border-radius: 12px;
+ font-size: 1.06rem;
 }
 
 .estimate-box {
