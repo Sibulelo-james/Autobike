@@ -521,11 +521,16 @@ img {
 .field-row select {
  width: 100%;
  border: 1px solid rgba(255,255,255,0.15);
- background: rgba(255,255,255,0.05);
+ background: #000000;
  color: white;
  border-radius: 12px;
  padding: 0.9rem 1rem;
  font: inherit;
+}
+
+.field-row select option {
+ background: #000000;
+ color: white;
 }
 
 .calc-panel .button {
