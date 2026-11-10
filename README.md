@@ -1,33 +1,21 @@
-# The Bike Shop
+# Autobike
 
-A premium motorcycle parts and accessories storefront website built with HTML, CSS, and JavaScript.
-
-## Project overview
-This project is a responsive static e-commerce style landing page for a motorcycle parts business. It includes a strong hero section, category cards, featured products, a promotional banner, and footer/contact information.
-
-## Pages
-- `index.html` — main storefront homepage
+This project is a motorcycle parts and accessories website made for a school assignment. It has a modern homepage with a hero section, product categories, featured items, and contact details. The site is designed to look clean and professional and works well on desktop and mobile screens.
 
 ## Files
-- `index.html` — main HTML structure
-- `styles.css` — full styling and responsive design
-- `script.js` — small script for dynamic year rendering
+- `index.html` — main page structure
+- `styles.css` — styling and layout
+- `script.js` — small JavaScript for the year in the footer
 
-## Run locally
-Open `index.html` directly in a browser, or serve the project locally:
+## Project preview
+Visit the live project here:
 
-```bash
-npx http-server .
-```
+https://Sibulelo-james.github.io/Autobike/
 
-Then visit:
-
-```bash
-http://localhost:8123
-```
-
-## GitHub Pages
-This project is designed to work as a static website and can be published using GitHub Pages.
+## Repository
+https://github.com/Sibulelo-james/Autobike
 
 ## Notes
-The design was created to resemble a modern motorcycle retail storefront focused on parts, gear, and rider performance upgrades.
+This project was created as a static website using HTML, CSS, and JavaScript. It is designed to be simple, responsive, and easy to host online.
+
+This was built using plain HTML, CSS, and JavaScript so it is easy to host and easy to edit.
