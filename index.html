@@ -29,13 +29,14 @@
           <a href="index.html">Home</a>
           <a href="#shop">Shop</a>
           <a href="#parts">Parts</a>
+          <a href="#calculator">Activities</a>
           <a href="#brands">Brands</a>
           <a href="#contact">Contact</a>
         </nav>
 
         <div class="nav-actions">
           <a href="tel:+27115552089" class="nav-phone">+27 11 555 2089</a>
-          <a class="button button-primary nav-cta" href="#shop">Shop now</a>
+          <a class="button button-primary nav-cta" href="#calculator">Calculate activity</a>
         </div>
       </div>
     </header>
@@ -51,7 +52,7 @@
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#shop">Browse parts</a>
-              <a class="button button-secondary" href="#brands">Shop brands</a>
+              <a class="button button-secondary" href="#calculator">View activities</a>
             </div>
             <ul class="hero-stats" aria-label="Shop statistics">
               <li><strong>12k+</strong><span>Parts sold</span></li>
@@ -151,17 +152,22 @@
       <section class="calculator section-space" id="calculator">
         <div class="container calc-layout">
           <div class="calc-copy">
-            <p class="eyebrow">Quick estimate</p>
-            <h2>Calculate your monthly cost before you buy.</h2>
-            <p>Use the estimate tool to decide what fits your budget and riding plans.</p>
+            <p class="eyebrow">Activity planner</p>
+            <h2>Calculate the monthly cost for your next upgrade.</h2>
+            <p>Use the activity budget planner to compare products, monthly payments, and rider essentials before you buy.</p>
             <ul>
-              <li>Instant pricing estimate for common parts</li>
-              <li>Easy budgeting before checkout</li>
-              <li>Flexible month options for riders</li>
+              <li>Fast estimate for bike parts and upgrades</li>
+              <li>Clear monthly breakdown for budgeting</li>
+              <li>Professional financing-style planning for riders</li>
             </ul>
           </div>
 
           <div class="calc-panel">
+            <div class="panel-header">
+              <span class="panel-badge">Finance calculator</span>
+              <h3>Activity cost estimate</h3>
+            </div>
+
             <div class="field-row">
               <label for="categorySelect">Category</label>
               <select id="categorySelect">
@@ -174,7 +180,7 @@
             </div>
 
             <div class="field-row">
-              <label for="priceInput">Price</label>
+              <label for="priceInput">Item price</label>
               <input id="priceInput" type="number" min="0" step="50" value="3490" />
             </div>
 
@@ -184,7 +190,7 @@
             </div>
 
             <div class="field-row">
-              <label for="termInput">Months</label>
+              <label for="termInput">Payment term</label>
               <select id="termInput">
                 <option value="6">6 months</option>
                 <option value="12">12 months</option>
@@ -193,7 +199,7 @@
               </select>
             </div>
 
-            <button id="calculateBtn" class="button button-primary" type="button">Calculate</button>
+            <button id="calculateBtn" class="button button-primary" type="button">Calculate activity cost</button>
 
             <div class="estimate-box">
               <span>Estimated monthly</span>

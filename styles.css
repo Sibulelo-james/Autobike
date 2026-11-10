@@ -472,11 +472,35 @@ img {
 }
 
 .calc-panel {
- background: #17181b;
+ background: linear-gradient(135deg, #17181b, #1f2328);
  color: white;
  border-radius: 26px;
  padding: 28px 24px;
- box-shadow: var(--shadow);
+ box-shadow: 0 22px 48px rgba(17, 18, 22, 0.18);
+ border: 1px solid rgba(255,255,255,0.06);
+}
+
+.panel-header {
+ margin-bottom: 22px;
+}
+
+.panel-badge {
+ display: inline-flex;
+ align-items: center;
+ padding: 0.38rem 0.7rem;
+ border-radius: 999px;
+ background: rgba(255, 122, 26, 0.12);
+ color: #ffb684;
+ font-size: 0.7rem;
+ font-weight: 700;
+ letter-spacing: 0.12em;
+ text-transform: uppercase;
+}
+
+.panel-header h3 {
+ margin: 12px 0 0;
+ font-size: 1.7rem;
+ letter-spacing: -0.05em;
 }
 
 .field-row {
